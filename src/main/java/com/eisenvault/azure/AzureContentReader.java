@@ -13,6 +13,9 @@ import com.microsoft.azure.storage.blob.BlobProperties;
 import com.microsoft.azure.storage.blob.CloudBlob;
 import com.microsoft.azure.storage.blob.CloudBlobContainer;
 
+/**
+ * This is a class for Azure content reader
+ */
 public class AzureContentReader extends AbstractContentReader {
 
 	private static final Log logger = LogFactory
